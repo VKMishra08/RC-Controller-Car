@@ -1,12 +1,12 @@
 # 🚗 RC Controller Car
 
-> A wireless Arduino-based robotic car designed for real-time remote-controlled movement and motor control.
+> A wireless ESP32-based robotic car designed for real-time remote-controlled movement and motor control.
 
 ## 📌 About The Project
 
-The RC Controller Car is a wireless robotic vehicle developed using Arduino and an RC transmitter-receiver system. The project allows the user to control the car remotely and perform different movements such as forward, backward, left, right, and stop.
+The RC Controller Car is a wireless robotic vehicle developed using ESP32 and an RC transmitter-receiver system. The project allows the user to control the car remotely and perform different movements such as forward, backward, left, right, and stop.
 
-This project demonstrates practical implementation of Arduino programming, wireless communication, motor control, embedded systems, and robotics.
+This project demonstrates practical implementation of ESP32 programming, wireless communication, motor control, embedded systems, and robotics.
 
 ## ✨ Key Features
 
@@ -17,12 +17,12 @@ This project demonstrates practical implementation of Arduino programming, wirel
 * 🛑 Stop control
 * ⚙️ Motor driver-based motor control
 * 📡 RC transmitter and receiver communication
-* 🔌 Arduino-based embedded system
+* 🔌 ESP32-based embedded system
 
 
 ## 🧠 Working Principle
 
-The system works through communication between the RC transmitter, receiver, Arduino, motor driver, and DC motors.
+The system works through communication between the RC transmitter, receiver, ESP32, motor driver, and DC motors.
 
 
        🎮 RC TRANSMITTER
@@ -32,7 +32,7 @@ The system works through communication between the RC transmitter, receiver, Ard
        📡 RC RECEIVER
               │
               ▼
-          🔵 ARDUINO
+          🔵 ESP32
               │
               ▼
        ⚙️ MOTOR DRIVER
@@ -48,8 +48,8 @@ The system works through communication between the RC transmitter, receiver, Ard
 
 1. The user sends a movement command using the RC transmitter.
 2. The RC receiver receives the wireless signal.
-3. Arduino reads and processes the received command.
-4. Arduino sends control signals to the motor driver.
+3. ESP32 reads and processes the received command.
+4. ESP32 sends control signals to the motor driver.
 5. The motor driver controls the DC motors.
 6. The car moves according to the selected command.
 
@@ -67,7 +67,7 @@ The system works through communication between the RC transmitter, receiver, Ard
 
 ## 🛠️ Hardware Components
 
-* 🔵 Arduino
+* 🔵 ESP32
 * 📡 RC Transmitter & Receiver
 * ⚙️ Motor Driver
 * 🔋 Battery
@@ -83,7 +83,7 @@ The system works through communication between the RC transmitter, receiver, Ard
 Programming
 
 * C/C++
-* Arduino Programming
+* ESP32 Programming
 
 Technical Skills
 
@@ -128,7 +128,7 @@ The project can be further enhanced by integrating:
 
 Through this project, I gained practical experience in:
 
-* Arduino programming
+* ESP32 programming
 * Wireless communication
 * Motor control
 * Sensor and hardware integration
